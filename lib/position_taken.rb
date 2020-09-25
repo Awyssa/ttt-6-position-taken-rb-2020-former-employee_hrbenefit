@@ -1,11 +1,6 @@
-def position_taken?(board, index)
+def position_taken
 
-  taken = nil
-  if (board[index] ==  " " || board[index] == "" || board[index] == nil)
-    taken = false
-  else
+  if (board[index] == " " || board[index] == "" || board[index] == nil
     taken = true
-  end
 
-  taken
 end
